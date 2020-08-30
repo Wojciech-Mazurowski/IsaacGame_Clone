@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\RoomClasses">
+      <UniqueIdentifier>{0252866a-3225-4b96-a9c7-923c4f45a4ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\States">
+      <UniqueIdentifier>{3dd0ed63-b7aa-4e6b-b0a2-78de7e33dd35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\States\GameStates">
+      <UniqueIdentifier>{3cc926e8-9a1f-4400-8f98-e444c80fa74f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\SplashScreens">
+      <UniqueIdentifier>{831db41a-0f7a-4275-8dcc-4de043ff4ede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Entity">
+      <UniqueIdentifier>{dae0f17a-1e13-43ae-b3ed-74735d397b33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\components">
+      <UniqueIdentifier>{1af119fd-1ac6-4327-b809-59f75047ae1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\collision">
+      <UniqueIdentifier>{af41c5b2-c968-49eb-b547-49f675758656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Objects">
+      <UniqueIdentifier>{5707bec7-0add-4e50-96bb-68414d7cdc50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Objects\Items">
+      <UniqueIdentifier>{bacfb7ee-3fdf-40f7-a0ef-ec31868e3871}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\RoomClasses\Managers">
+      <UniqueIdentifier>{6f51826f-8924-4995-abe8-39246b5fba66}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMap.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Universals.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="characterView.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="LightSource.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="LightManager.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeWidget.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="FloorHole.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="BossRoom.h">
+      <Filter>Pliki nagłówkowe\RoomClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalRoom.h">
+      <Filter>Pliki nagłówkowe\RoomClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>Pliki nagłówkowe\RoomClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="StartRoom.h">
+      <Filter>Pliki nagłówkowe\RoomClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Pliki nagłówkowe\States</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Pliki nagłówkowe\States</Filter>
+    </ClInclude>
+    <ClInclude Include="StateManager.h">
+      <Filter>Pliki nagłówkowe\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Pliki nagłówkowe\States\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalGame.h">
+      <Filter>Pliki nagłówkowe\States\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashScreen.h">
+      <Filter>Pliki nagłówkowe\SplashScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverSplashScreen.h">
+      <Filter>Pliki nagłówkowe\SplashScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementComponent.h">
+      <Filter>Pliki nagłówkowe\components</Filter>
+    </ClInclude>
+    <ClInclude Include="HitboxComponent.h">
+      <Filter>Pliki nagłówkowe\components</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Pliki nagłówkowe\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Pliki nagłówkowe\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Pliki nagłówkowe\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Player1.h">
+      <Filter>Pliki nagłówkowe\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Player2.h">
+      <Filter>Pliki nagłówkowe\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Pliki nagłówkowe\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Pliki nagłówkowe\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>Pliki nagłówkowe\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemRoom.h">
+      <Filter>Pliki nagłówkowe\RoomClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Pliki nagłówkowe\Objects\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="UsableItem.h">
+      <Filter>Pliki nagłówkowe\Objects\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticItem.h">
+      <Filter>Pliki nagłówkowe\Objects\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="FloorManager.h">
+      <Filter>Pliki nagłówkowe\RoomClasses\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemsManager.h">
+      <Filter>Pliki nagłówkowe\States\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowObject.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Chest.h">
+      <Filter>Pliki nagłówkowe\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="TemporaryEffects.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Obsticle.h">
+      <Filter>Pliki nagłówkowe\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="WithTimerSplashScreen.h">
+      <Filter>Pliki nagłówkowe\SplashScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="ArenaGame.h">
+      <Filter>Pliki nagłówkowe\States\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceLoader.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyWorm.h">
+      <Filter>Pliki nagłówkowe\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Astar.h">
+      <Filter>Pliki nagłówkowe\components</Filter>
+    </ClInclude>
+    <ClInclude Include="MapCollision.h">
+      <Filter>Pliki nagłówkowe\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="poteznyBoss.h">
+      <Filter>Pliki nagłówkowe\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="tezBoss.h">
+      <Filter>Pliki nagłówkowe\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="FollowingMonster.h">
+      <Filter>Pliki nagłówkowe\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyGhost.h">
+      <Filter>Pliki nagłówkowe\Entity</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MovementComponent.cpp">
+      <Filter>Pliki nagłówkowe\components</Filter>
+    </ClCompile>
+    <ClCompile Include="HitboxComponent.cpp">
+      <Filter>Pliki nagłówkowe\components</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Pliki nagłówkowe\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Pliki nagłówkowe\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Pliki nagłówkowe\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Player1.cpp">
+      <Filter>Pliki nagłówkowe\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Player2.cpp">
+      <Filter>Pliki nagłówkowe\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Pliki nagłówkowe\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverSplashScreen.cpp">
+      <Filter>Pliki nagłówkowe\SplashScreens</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashScreen.cpp">
+      <Filter>Pliki nagłówkowe\SplashScreens</Filter>
+    </ClCompile>
+    <ClCompile Include="ArenaGame.cpp">
+      <Filter>Pliki nagłówkowe\States\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Pliki nagłówkowe\States\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalGame.cpp">
+      <Filter>Pliki nagłówkowe\States\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="StateManager.cpp">
+      <Filter>Pliki nagłówkowe\States</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Pliki nagłówkowe\States</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Pliki nagłówkowe\States</Filter>
+    </ClCompile>
+    <ClCompile Include="BossRoom.cpp">
+      <Filter>Pliki nagłówkowe\RoomClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemRoom.cpp">
+      <Filter>Pliki nagłówkowe\RoomClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalRoom.cpp">
+      <Filter>Pliki nagłówkowe\RoomClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="StartRoom.cpp">
+      <Filter>Pliki nagłówkowe\RoomClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClCompile>
+    <ClCompile Include="characterView.cpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClCompile>
+    <ClCompile Include="FloorHole.cpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClCompile>
+    <ClCompile Include="LightManager.cpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClCompile>
+    <ClCompile Include="LightSource.cpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMap.cpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeWidget.cpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Universals.cpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Pliki nagłówkowe\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Door.cpp">
+      <Filter>Pliki nagłówkowe\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Pliki nagłówkowe\Objects\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="UsableItem.cpp">
+      <Filter>Pliki nagłówkowe\Objects\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticItem.cpp">
+      <Filter>Pliki nagłówkowe\Objects\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="FloorManager.cpp">
+      <Filter>Pliki nagłówkowe\RoomClasses\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemsManager.cpp">
+      <Filter>Pliki nagłówkowe\States\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowObject.cpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Pliki nagłówkowe\States\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Chest.cpp">
+      <Filter>Pliki nagłówkowe\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="TemporaryEffects.cpp" />
+    <ClCompile Include="Effect.cpp" />
+    <ClCompile Include="Obsticle.cpp">
+      <Filter>Pliki nagłówkowe\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="WithTimerSplashScreen.cpp">
+      <Filter>Pliki nagłówkowe\SplashScreens</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceLoader.cpp" />
+    <ClCompile Include="EnemyWorm.cpp">
+      <Filter>Pliki nagłówkowe\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Astar.cpp">
+      <Filter>Pliki nagłówkowe\components</Filter>
+    </ClCompile>
+    <ClCompile Include="MapCollision.cpp">
+      <Filter>Pliki nagłówkowe\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="poteznyBoss.cpp">
+      <Filter>Pliki nagłówkowe\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="tezBoss.cpp">
+      <Filter>Pliki nagłówkowe\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="FollowingMonster.cpp">
+      <Filter>Pliki nagłówkowe\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyGhost.cpp">
+      <Filter>Pliki nagłówkowe\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>Pliki nagłówkowe\RoomClasses</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
